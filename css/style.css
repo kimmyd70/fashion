@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+   
+}
+.container {
+    background: #fff;
+}
+
+#header {
+	 /*HINT: Display flex;this is what centers the text*/
+	/*background: RGBA*/
+	/*position: sticky*/  
+}
+#footer {background:#999;
+   
+  /*display: flex; center, space around*/
+
+}
+
+#hero {}/*display: flex; center, start, background image, background size, min height,*/
+
+#marketing{ } /*display flex, gradient*/
+   
+.row_lg {
+min-height: 60px;/*adjust as needed. for demo*/
+}
+
+.column {}/*display flex, this is what centers the text*/
+    
+
+.v_space {    }/*add vertical space*/
+.tilt_right {    }/*rotate picture right*/
+.tilt_left {   }/*rotate picture left*/
+.model{   }/*add a trnsition to images*/
+.model:hover {/*add box shadow and scale to hover state*/}
+
+/*typographic*/
+body {
+
+    color: #363c41;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.01rem;
+}
+b, strong {
+    font-weight: 700;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1 {}/* text for logo*/
+
+h2 {}/*text for hero image*/
+  
+
+h3 {}/*text blocks on page*/
+h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:601px) and (max-width: 1000px) {
+/*tablet*/
+#hero {}/*adjust for tablet*/
+	h2 {} /*text for hero image*/
+	 
+}
+
+@media (max-width: 600px) {
+/*large phone*/
+#hero {}/*adjust for tablet*/
+	h2 {} /*text for hero image*/
+}
+
+
+
+@media (max-width: 400px) {
+/*small phone*/
+}
